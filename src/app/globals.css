@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+input {
+  color: #010b18;
+}
+label {
+  color: #010b18;
+}
+
