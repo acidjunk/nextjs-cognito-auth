@@ -25,6 +25,9 @@ export async function handleSignUp(
         userAttributes: {
           email: String(formData.get("email")),
           name: String(formData.get("name")),
+          // givenName: String(formData.get("name")),
+          // middleName: String(formData.get("middleName")),
+          // familyName: String(formData.get("familyName")),
         },
         // optional
         autoSignIn: true,
